@@ -1,12 +1,9 @@
 {
   "name": "@alechartung/postgraphile-upsert-plugin",
   "description": "add postgres upsert mutations to postgraphile",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "build/postgraphile-upsert.js",
-  "files": [
-    "build/*.js",
-    "build/*.ts"
-  ],
+  "files": ["build/*.js", "build/*.ts"],
   "engines": {
     "node": ">=8"
   },
@@ -72,12 +69,8 @@
   },
   "standard": {
     "parser": "@typescript-eslint/parser",
-    "standardPlugins": [
-      "typescript"
-    ],
-    "ignore": [
-      "**/*.d.ts"
-    ]
+    "standardPlugins": ["typescript"],
+    "ignore": ["**/*.d.ts"]
   },
   "bugs": {
     "url": "https://github.com/alechartung/postgraphile-upsert/issues"

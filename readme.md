@@ -2,8 +2,6 @@
 
 add postgres `upsert` mutations to [postgraphile](https://www.graphile.org/postgraphile)
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Greenkeeper badge](https://badges.greenkeeper.io/cdaringe/postgraphile-upsert.svg)](https://greenkeeper.io/) [![CircleCI](https://circleci.com/gh/cdaringe/postgraphile-upsert.svg?style=svg)](https://circleci.com/gh/cdaringe/postgraphile-upsert)
-
 ## install
 
 `yarn add postgraphile-upsert-plugin`

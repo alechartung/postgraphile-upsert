@@ -45,12 +45,6 @@
     "semantic-release": "semantic-release",
     "lint": "standard '{src,test,scripts}/**/*.{ts,tsx}' --fix"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "ava": {
     "babel": false,
     "compileEnhancements": false
